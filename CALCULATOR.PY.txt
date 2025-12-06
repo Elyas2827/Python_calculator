@@ -1,0 +1,18 @@
+print("simple calculator")
+print("operator: +, -, *, /")
+
+num1 = int(input("enter your first number: "))
+op = input("Enter operator(+, -, *, /):")
+num2 = int(input("enter second number: "))
+
+if op == '+':
+    print("result:", num1 +num2)
+elif op == '-':
+    print("result:", num1 - num2)
+elif op == '*':
+    print("result: ", num1 * num2)
+elif op == '/':
+    if num2 !=0:
+     print("result:", num1 /num2)
+else:
+   print("error! Division by zero.")
